@@ -11,4 +11,4 @@ function ColorMyPencils(color)
 
 end
 
-ColorMyPencils('gruvbox')
+ColorMyPencils()

@@ -25,6 +25,10 @@ return require('packer').startup(function(use)
         vim.cmd.colorscheme("gruvbox")
     end}
 
+    use {'shaunsingh/nord.nvim', config = function ()
+        vim.cmd.colorscheme("nord")
+    end}
+
     use({
         'rose-pine/neovim',
         as = 'rose-pine',
