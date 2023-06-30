@@ -82,10 +82,10 @@ return require('packer').startup(function(use)
         }
 
         use("folke/zen-mode.nvim")
-        use("github/copilot.vim")
         use("eandrju/cellular-automaton.nvim")
         use("laytan/cloak.nvim")
         use("mfussenegger/nvim-dap")
         use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+        use("numToStr/Comment.nvim")
     end)
 
